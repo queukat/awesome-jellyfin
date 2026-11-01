@@ -1,8 +1,6 @@
 name: Check for Pending Jobs
 
 on:
-  schedule:
-    - cron: '32 */6 * * *'
   workflow_dispatch: {}
 
 jobs:
